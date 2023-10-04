@@ -5,9 +5,10 @@ import { FaBirthdayCake, FaReact } from 'react-icons/fa'
 import { BsBagCheck, BsGit } from 'react-icons/bs'
 import { TbBrandNextjs } from 'react-icons/tb'
 import { LuBrain, LuGamepad2 } from 'react-icons/lu'
-import { AiFillGithub, AiFillHtml5, AiFillLinkedin } from 'react-icons/ai'
+import { AiFillGithub, AiFillHtml5, AiFillLinkedin, AiOutlineArrowRight } from 'react-icons/ai'
 import { RiGraduationCapFill } from 'react-icons/ri'
 import { IoLogoCss3 } from 'react-icons/io'
+import { CgTemplate } from 'react-icons/cg'
 import { GiBiceps } from 'react-icons/gi'
 import { FcGoogle, FcLinux } from 'react-icons/fc'
 import { SiExpress, SiNestjs, SiTailwindcss } from 'react-icons/si'
@@ -16,8 +17,8 @@ import { BiLogoJavascript, BiLogoMongodb, BiLogoNodejs, BiLogoTypescript } from 
 
 const Resume = () => {
   return (
-    <section className='flex flex-col lg:w-[50rem] text-sm mx-auto'>
-      <div className='w-full bg-main2 text-center text-2xl p-2 text-white font-semibold'>
+    <main className='flex flex-col lg:w-[50rem] text-sm mx-auto'>
+      <div className='w-full bg-main2 text-center text-xl p-2 text-white font-semibold'>
         RESUME BUILD USING HTML, CSS, REACT JS
       </div>
       <header className='bg-main text-white flex gap-x-5 p-5 relative'>
@@ -71,7 +72,7 @@ const Resume = () => {
 
 
 
-      <main className='flex relative -z-50'>
+      <section className='flex relative -z-50'>
         <section className='bg-gray-200 w-[65%] min-h-screen p-6 relative -top-16 pt-20'>
 
           <div>
@@ -135,17 +136,26 @@ const Resume = () => {
             <div>
               <div className='space-y-0.5 mt-3.5'>
                 <h1 className='font-medium'>Bhartiya Jain Santha (BJS) College </h1>
-                <h1 className='font-semibold text-main2'>HSC <span className='text-black/80'>- 56%</span></h1>
+                <h1 className='font-semibold text-main2'>HSC {/*<span className='text-black/80'>- 56%</span>*/}</h1>
               </div>
             </div>
             <div>
               <div className='space-y-0.5 mt-3.5'>
                 <h1 className='font-medium'>Holy Angels Convent High School  </h1>
-                <h1 className='font-semibold text-main2'>SSC<span className='text-black/80'>- 63%</span></h1>
+                <h1 className='font-semibold text-main2'>SSC{/*<span className='text-black/80'>- 63%</span>*/}</h1>
               </div>
             </div>
           </div>
 
+          <div className='w-[70%]'>
+            <div className='flex items-center gap-x-2 mt-7 mb-2'>
+              <div className='bg-main p-2 w-fit rounded-lg'>
+                <LuGamepad2 className='text-white text-xl' />
+              </div>
+              <h1 className='text-main font-bold'>INTERESTS</h1>
+            </div>
+            <span className='text-xs'> Artificial Intelligence Tools, Creating Mordern Designs, Chess , Reading Books, Traveling, Video Games.</span>
+          </div>
 
         </section>
 
@@ -164,74 +174,74 @@ const Resume = () => {
 
             <div className='space-y-1.5'>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <AiFillHtml5 className='text-xl text-red-600' />
-                <h1>HTML 5</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <AiFillHtml5 className='text-lg text-red-600' />
+                <h1 className="text-[0.800rem]" >HTML 5</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <IoLogoCss3 className='text-xl text-blue-600' />
-                <h1>CSS 3</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <IoLogoCss3 className='text-lg text-blue-600' />
+                <h1 className="text-[0.800rem]" >CSS 3</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <SiTailwindcss className='text-xl text-sky-500' />
-                <h1>Tailwind CSS</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <SiTailwindcss className='text-lg text-sky-500' />
+                <h1 className="text-[0.800rem]" >Tailwind CSS</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <BiLogoJavascript className='text-xl text-yellow-500' />
-                <h1>JavaScript</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <BiLogoJavascript className='text-lg text-yellow-500' />
+                <h1 className="text-[0.800rem]" >JavaScript</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <BiLogoTypescript className='text-xl text-blue-600' />
-                <h1>Typescript</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <BiLogoTypescript className='text-lg text-blue-600' />
+                <h1 className="text-[0.800rem]" >Typescript</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <FaReact className='text-xl text-sky-600' />
-                <h1>React Js</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <FaReact className='text-lg text-sky-600' />
+                <h1 className="text-[0.800rem]" >React Js</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <TbBrandNextjs className='text-xl' />
-                <h1>Next Js 13</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <TbBrandNextjs className='text-lg' />
+                <h1 className="text-[0.800rem]" >Next Js 13</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <BiLogoNodejs className='text-xl text-lime-600' />
-                <h1>Node Js</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <BiLogoNodejs className='text-lg text-lime-600' />
+                <h1 className="text-[0.800rem]" >Node Js</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <SiExpress className='text-xl' />
-                <h1>Express Js</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <SiExpress className='text-lg' />
+                <h1 className="text-[0.800rem]" >Express Js</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <BiLogoMongodb className='text-xl text-lime-600' />
-                <h1>MongoDB</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <BiLogoMongodb className='text-lg text-lime-600' />
+                <h1 className="text-[0.800rem]" >MongoDB</h1>
               </div>
 
-              {/* <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <SiNestjs className='text-xl text-red-600' />
-                <h1>Nest Js</h1>
+              {/* <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <SiNestjs className='text-lg text-red-600' />
+                <h1 className="text-[0.800rem]" >Nest Js</h1>
               </div> */}
 
-              {/* <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <FcLinux className='text-xl' />
-                <h1>Linux Commands</h1>
+              {/* <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <FcLinux className='text-lg' />
+                <h1 className="text-[0.800rem]" >Linux Commands</h1>
               </div> */}
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <BsGit className='text-xl text-orange-600' />
-                <h1>Git</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <BsGit className='text-lg text-orange-600' />
+                <h1 className="text-[0.800rem]" >Git</h1>
               </div>
 
-              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-1 px-3 rounded-full'>
-                <FcGoogle className='text-xl text-lime-600' />
-                <h1>SEO</h1>
+              <div className='flex items-center gap-x-2 border-gray-400 border w-fit py-0.5 px-3 rounded-full'>
+                <FcGoogle className='text-lg text-lime-600' />
+                <h1 className="text-[0.800rem]" >SEO</h1>
               </div>
 
             </div>
@@ -239,15 +249,59 @@ const Resume = () => {
           </div>
 
 
-          <div>
+          <div className='space-y-2.5 text-justify relative z-50'>
             <div className='flex items-center gap-x-2 mt-7 mb-2'>
               <div className='bg-main p-2 w-fit rounded-lg'>
-                <LuGamepad2 className='text-white text-xl' />
+                <CgTemplate className='text-white text-xl' />
               </div>
-              <h1 className='text-main font-bold'>INTERESTS</h1>
+              <h1 className='text-main font-bold'>PROJECTS</h1>
             </div>
-            <span className='text-xs'> Chess, Artificial Intelligence, Traveling, Video Games, Reading Books.</span>
+            <div className='text-xs' >
+              <h1 className='font-bold'>SNEKO</h1>
+              <p className='text-main/90' >Full Stack Startup Ready Shoes Ecommerce Website with Modern Design using Next Js 13 with Strapi (Headless CMS) Dashboard. For Payment Integration Stripe has been used.</p>
+              <div className='flex items-center mt-0.5'>
+                <a href='https://shoe-store-frontend-livid.vercel.app/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  Visit App
+                  <AiOutlineArrowRight className='mx-0.5' />
+                </a>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  View Code
+                  <AiFillGithub className='mx-0.5' />
+                </a> */}
+              </div>
+            </div>
+            <div className='text-xs' >
+              <h1 className='font-bold'>COURSEFINITE</h1>
+              <p className='text-main/90' >Full Stack Startup ready Course Streaming Web App. Where user can see the courses by buying Subscription. Razorpay payment gateway for UPI Payment. Admin has access to Dashboard.</p>
+              <div className='flex items-center mt-0.5'>
+                <a href='https://coursefinite.vercel.app/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  Visit App
+                  <AiOutlineArrowRight className='mx-0.5' />
+                </a>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  View Code
+                  <AiFillGithub className='mx-0.5' />
+                </a> */}
+              </div>
+            </div>
+            <div className='text-xs' >
+              <h1 className='font-bold'>SHOPIE</h1>
+              <p className='text-main/90' >Full stack Startup Ready Ecommerce Web App from scratch using MERN Stack, Stripe Payment Gateway and Admin Dashboard.</p>
+              <div className='flex items-center mt-0.5'>
+                <a href='https://shopie-k64e.onrender.com/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  Visit App
+                  <AiOutlineArrowRight className='mx-0.5' />
+                </a>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                  View Code
+                  <AiFillGithub className='mx-0.5' />
+                </a> */}
+              </div>
+            </div>
           </div>
+
+
+
 
 
           <div>
@@ -262,9 +316,9 @@ const Resume = () => {
 
 
         </section>
-      </main>
+      </section>
 
-    </section>
+    </main>
   )
 }
 
