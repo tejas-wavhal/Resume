@@ -257,10 +257,10 @@ const Resume = () => {
               <h1 className='text-main font-bold'>PROJECTS</h1>
             </div>
             <div className='text-xs' >
-              <h1 className='font-bold'>SNEKO</h1>
-              <p className='text-main/90' >Full Stack Startup Ready Shoes Ecommerce Website with Modern Design using Next Js 13 with Strapi (Headless CMS) Dashboard. For Payment Integration Stripe has been used.</p>
+              <h1 className='font-bold'>itsstreetcoffee.com</h1>
+              <p className='text-main/90' >Full Stack Next JS 13 application form scratch to Production on Digital Ocean Droplet using Tailwind CSS and Mongo DB with beautiful UI/UX.</p>
               <div className='flex items-center mt-0.5'>
-                <a href='https://shoe-store-frontend-livid.vercel.app/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                <a href='https://itsstreetcoffee.com/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   Visit App
                   <AiOutlineArrowRight className='mx-0.5' />
                 </a>
