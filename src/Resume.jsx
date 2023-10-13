@@ -112,7 +112,7 @@ const Resume = () => {
                   <li>Successfully freelanced for 1 month, independently creating the "Its Street Coffee" official website <a className='text-blue-700 font-bold' href="https://itsstreetcoffee.com/">(itsstreetcoffee.com)</a>.</li>
                   <li>Designed and developed the website with a focus on a captivating UI/UX design and achieved a strong SEO score.</li>
                   <li>Utilized Next.js, React.js, Node.js, Mongo DB, and Tailwind CSS to build a high-performance, responsive web application.</li>
-                  <li>Applied SEO best practices, resulting in increased online visibility, particularly on the Franchise page, and a surge in user engagement.</li>
+                  <li>Applied SEO best practices, resulting in 30% increase of franchise sales by online visibility, on the Franchise page, and a surge in user engagement.</li>
                   <li>Deployed <a className='text-blue-700 font-bold' href="https://itsstreetcoffee.com/">itsstreetcoffee.com</a> on the DigitalOcean platform, ensuring reliable hosting and performance.</li>
                 </ul>
               </div>
@@ -260,11 +260,11 @@ const Resume = () => {
               <h1 className='font-bold'>itsstreetcoffee.com</h1>
               <p className='text-main/90' >Full Stack Next JS 13 application form scratch to Production on Digital Ocean Droplet using Tailwind CSS and Mongo DB with beautiful UI/UX.</p>
               <div className='flex items-center mt-0.5'>
-                <a href='https://itsstreetcoffee.com/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                <a href='https://itsstreetcoffee.com/' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   Visit App
                   <AiOutlineArrowRight className='mx-0.5' />
                 </a>
-                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   View Code
                   <AiFillGithub className='mx-0.5' />
                 </a> */}
@@ -274,11 +274,11 @@ const Resume = () => {
               <h1 className='font-bold'>COURSEFINITE</h1>
               <p className='text-main/90' >Full Stack Startup ready Course Streaming Web App. Where user can see the courses by buying Subscription. Razorpay payment gateway for UPI Payment. Admin has access to Dashboard.</p>
               <div className='flex items-center mt-0.5'>
-                <a href='https://coursefinite.vercel.app/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                <a href='https://coursefinite.vercel.app/' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   Visit App
                   <AiOutlineArrowRight className='mx-0.5' />
                 </a>
-                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   View Code
                   <AiFillGithub className='mx-0.5' />
                 </a> */}
@@ -288,11 +288,11 @@ const Resume = () => {
               <h1 className='font-bold'>SHOPIE</h1>
               <p className='text-main/90' >Full stack Startup Ready Ecommerce Web App from scratch using MERN Stack, Stripe Payment Gateway and Admin Dashboard.</p>
               <div className='flex items-center mt-0.5'>
-                <a href='https://shopie-k64e.onrender.com/' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                <a href='https://shopie-k64e.onrender.com/' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   Visit App
                   <AiOutlineArrowRight className='mx-0.5' />
                 </a>
-                {/* <a href='' className='text-main border border-main flex items-center bg-main2/40 font-medium py-0.5 px-2 rounded-xl mr-5'>
+                {/* <a href='' className='text-main border border-main flex items-center bg-main2/30 font-medium py-0.5 px-2 rounded-xl mr-5'>
                   View Code
                   <AiFillGithub className='mx-0.5' />
                 </a> */}
