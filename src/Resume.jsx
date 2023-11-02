@@ -84,36 +84,48 @@ const Resume = () => {
             </div>
             <div>
               <div className='space-y-1 mt-4'>
-                <h1 className='font-bold'>WowVenues (Internship)</h1>
-                <h2 className='text-xs'><b>Location:</b> Bangalore (Remote)</h2>
-                <h3 className='text-xs'>July 06 2023 - September 16 2023 <span className='font-bold'>(2 Months)</span></h3>
+                <h1 className='font-semibold'><b className='font-bold'>TreeVed </b> - (Full Time)</h1>
+                <h2 className='text-xs'><span className='font-semibold'>Location:</span> Jaipur (Remote)</h2>
+                <h3 className='text-xs'>Joined at September 16 2023 <span className='font-bold'>(Currently Working)</span></h3>
               </div>
 
               <div className='text-[0.650rem] leading-tight my-2'>
-                <h1 className='text-sm font-semibold mb-1'>Achievements</h1>
                 <ul className='list-disc space-y-1.5 text-justify'>
-                  <li>Worked as a Full Stack Developer intern at WowVenues<a className='text-blue-700 font-bold' href="https://wowvenues.in/">(wowvenues.in)</a>, a leading platform for event venue booking, contributing to the development of its web application.</li>
-                  <li>Collaborated with a dynamic team of developers to create an efficient and user-friendly platform for venue booking, enhancing the overall user experience.</li>
-                  <li>Utilized a diverse set of technologies, including React, HTML, CSS, Node.js, Nest.js, and PostgreSQL, to build and maintain various features of the application.</li>
-                  <li>Played a pivotal role in implementing and troubleshooting features such as Venues Searching, Adding Venues to Wishlist, Filter Venues, Adding reviews to Venues.</li>
-                  <li>Worked closely with senior developers to learn best practices in software development, ensuring code quality and maintainability.</li>
+                  <li>At TreeVed, a dynamic social network platform, I played a vital role as a frontend developer. My focus was on developing the browser extension using Next.js, contributing to the platform's innovation and user experience.</li>
+
+                  <li>As a frontend developer at TreeVed, I specialized in Next.js to enhance the platform's user interaction. This role allowed me to contribute to the platform's continuous improvement and user satisfaction.</li>
+                </ul>
+              </div>
+            </div>
+            <div>
+
+              <div className='space-y-1 mt-4'>
+                <h1 className='font-semibold'><b className='font-bold'>WowVenues</b> - (Full Time Intern)</h1>
+                <h2 className='text-xs'><b>Location:</b> Bangalore (Remote)</h2>
+                <h3 className='text-xs'>July 06 2023 - September 16 2023 <span className='font-bold'>(3 Months)</span></h3>
+              </div>
+
+              <div className='text-[0.650rem] leading-tight my-2'>
+                <ul className='list-disc space-y-1.5 text-justify'>
+                  <li>At WowVenues <a className='text-blue-700 font-bold' href="https://wowvenues.in/">(wowvenues.in)</a>, I was the first developer, participating in full-stack development, including building, programming, and optimizing with React.js, Tailwind CSS, Node.js, and PostgreSQL.</li>
+                  <li>Senior developers have guided me, ensuring code quality and best practices while maintaining and upgrading the platform.</li>
+                  <li>My role at WowVenues involved standardizing and streamlining tech solutions, addressing issues, and problem-solving to improve overall performance.</li>
                 </ul>
               </div>
             </div>
 
             <div>
               <div className='space-y-1 mt-7'>
-                <h1 className='font-bold'>Freelance Web Developer</h1>
-                <h3 className='text-xs'>June 01 2023 - July 03 2023 <span className='font-bold'>(1 Months)</span></h3>
+                <h1 className='font-semibold'><b className='font-bold'>Freelance Web Developer </b> - (Part Time)</h1>
+                <h3 className='text-xs'>April 01 2022 - July 03 2023 <span className='font-bold'>(1 Year)</span></h3>
               </div>
 
               <div className='text-[0.650rem] leading-tight my-2'>
                 <ul className='list-disc space-y-1.5 text-justify'>
-                  <li>Successfully freelanced for 1 month, independently creating the "Its Street Coffee" official website <a className='text-blue-700 font-bold' href="https://itsstreetcoffee.com/">(itsstreetcoffee.com)</a>.</li>
-                  <li>Designed and developed the website with a focus on a captivating UI/UX design and achieved a strong SEO score.</li>
-                  <li>Utilized Next.js, React.js, Node.js, Mongo DB, and Tailwind CSS to build a high-performance, responsive web application.</li>
+                  <li>In my freelancing experience, I've created web applications from scratch to deployment, including the official web app for <a className='text-blue-700 font-bold' href="https://itsstreetcoffee.com/">itsstreetcoffee.com</a>.</li>
                   <li>Applied SEO best practices, resulting in 30% increase of franchise sales by online visibility, on the Franchise page, and a surge in user engagement.</li>
-                  <li>Deployed <a className='text-blue-700 font-bold' href="https://itsstreetcoffee.com/">itsstreetcoffee.com</a> on the DigitalOcean platform, ensuring reliable hosting and performance.</li>
+                  <li>I've designed and built various landing pages and applications and deployed, such as the one for <a className='text-blue-700 font-bold' href="https://varadgreenenviro.com/">varadgreenenviro.com</a>.</li>
+                  <li>My work involves optimization, problem-solving, and standardization, ensuring the best outcomes for web projects and achieving a good SEO score.</li>
                 </ul>
               </div>
             </div>
